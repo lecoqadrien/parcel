@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    background:white;
+  }
+
+  h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+  }
+
+  ul{
+      display: flex;
+      justify-content: space-around;
+      margin: 4px;
+  }
+
+  .header__image{
+      position: relative;
+      height: 60px;
+      border: 3px solid white;
+      max-width:100%;
+  }
